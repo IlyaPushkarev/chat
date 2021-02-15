@@ -1,0 +1,244 @@
+@import "../../styles/variables";
+
+.message {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  &__data-wrap {
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+  }
+
+  &__avatar {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 10%;
+    margin-right: 4px;
+
+    img {
+      border-radius: 50px;
+      width: 33px;
+      height: 33px;
+    }
+  }
+
+  &__bubble {
+    display: inline;
+    background: $blue;
+    box-shadow: 0px 5px 5px rgba(54, 116, 255, 0.196733);
+    border-radius: 12px 12px 12px 0px;
+    padding: 15px;
+  }
+
+  & .message__audio-progress {
+    border-radius: 12px 12px 12px 0px;
+  }
+
+  &__date {
+    margin-left: 10%;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+
+  &__text {
+    line-height: 20px;
+    color: white;
+    margin-bottom: 0;
+  }
+
+  &__icon-readed {
+    display: none;
+  }
+
+  &--is-me {
+    & .message__data-wrap {
+      flex-direction: row-reverse;
+    }
+
+    & .message__bubble {
+      background: white;
+      border-radius: 12px 12px 0px 12px;
+    }
+
+    & .message__audio-progress {
+      border-radius: 12px 12px 0px 12px;
+    }
+
+    & .message__text {
+      color: $black;
+    }
+
+    & .message__avatar {
+      display: flex;
+      flex-direction: column-reverse;
+      max-width: 10%;
+      margin-right: 0;
+      margin-left: 4px;
+    }
+
+    & .message__icon-read {
+      display: flex;
+      align-self: flex-end;
+      margin-right: 5px;
+    }
+
+    & .message__date {
+      margin-right: 10%;
+      text-align: end;
+    }
+  }
+
+  &--is-typing {
+    .message__bubble {
+      padding: 10px;
+      background: $message-typing-blue;
+    }
+  }
+
+  &__attachments {
+    display: flex;
+    cursor: pointer;
+
+    &-item {
+      margin-right: 5px;
+
+      img {
+        width: 45px;
+        height: 45px;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &__typing {
+    span {
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      background: $message-typing-grey;
+      display: inline-block;
+      margin-right: 8px;
+
+      animation-name: typingAnimation;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      opacity: 0.4;
+
+      &.one {
+        animation-delay: .3333s;
+      }
+
+      &.two {
+        animation-delay: .6666s;
+      }
+
+      &.three {
+        animation-delay: .9999s;
+      }
+    }
+  }
+
+  &__image {
+    .message__attachments {
+      &-item {
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+
+  &--is-audio {
+    & .message__bubble {
+      background: $blue;
+      position: relative;
+    }
+  }
+
+  &__audio {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & audio {
+      display: none;
+    }
+
+    &-progress {
+      width: 10%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 100%;
+      left: 0;
+      right: 100%;
+      background-color: #418FFF;
+      z-index: 2;
+      transition: width 0.5s;
+    }
+
+    &-btn {
+      width: 28px;
+      height: 28px;
+      background-repeat: no-repeat;
+      z-index: 3;
+    }
+
+    .play {
+      width: 28px;
+      height: 28px;
+      color: #0F3997;
+      font-size: 28px;
+      background-image: url("../../../src/assets/img/audio_message_play.svg");
+    }
+
+    .pause {
+      background-image: url("../../../src/assets/img/audio_message_pause.svg");
+    }
+
+    &-wave {
+      width: 109px;
+      height: 30px;
+      background-image: url("../../../src/assets/img/wave_audio.svg");
+      background-repeat: no-repeat;
+      z-index: 3;
+    }
+
+    &-duration {
+      z-index: 3;
+      p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        opacity: 0.5;
+        margin-bottom: 0;
+      }
+
+    }
+  }
+}
+
+@keyframes typingAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}

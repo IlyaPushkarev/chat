@@ -5,12 +5,74 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6890714e-a8d7-4216-8153-b8b8b5ec52fb" name="Default Changelist" comment="initial commit" />
+    <list default="true" id="6890714e-a8d7-4216-8153-b8b8b5ec52fb" name="Default Changelist" comment="fix: small fix">
+      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/audio_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/audio_message_pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/audio_message_play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/noReaded.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/readed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/wave_audio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AudioMessage/audioMessage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AudioMessage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Block/block.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Block/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DialogItem/dialogItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DialogItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/dialogs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Message/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Message/message.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StatusReadingMessage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StatusReadingMessage/statusReadingMessage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Time/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Time/time.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LoginForm/components/LoginForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LoginForm/containers/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LoginForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/RegisterForm/components/RegisterForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/RegisterForm/containers/RegisterForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/RegisterForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/auth.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/helpers/converTimeAudio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/helpers/getAvatarColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validations/registerFormValidation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,11 +95,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils/helpers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="ts.external.directory.path" value="D:\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web\MY__PROJECT\chat\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web\MY__PROJECT\chat\src\components" />
+      <recent name="D:\Web\MY__PROJECT\chat\src\modules" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +121,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612353157986</updated>
-      <workItem from="1612353159751" duration="429000" />
+      <workItem from="1612353159751" duration="12263000" />
+      <workItem from="1612695781914" duration="1791000" />
+      <workItem from="1612887906671" duration="957000" />
+      <workItem from="1612944444789" duration="7510000" />
+      <workItem from="1613041353578" duration="4718000" />
+      <workItem from="1613135823981" duration="14308000" />
+      <workItem from="1613202682527" duration="30371000" />
+      <workItem from="1613292225593" duration="22847000" />
+      <workItem from="1613369898953" duration="23844000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1612353377304</created>
@@ -70,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612353541364</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix: small fix">
+      <created>1612353753228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612353753228</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: small fix">
+      <created>1612353779540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612353779540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,13 +182,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="fix: small fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: small fix" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613390577366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1613390577366" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612353655310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -101,9 +203,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="380" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612353404931" />
+    <state x="54" y="191" key="EditFileWatcherDialog" timestamp="1612356970120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="54" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1612356970120" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613406978012">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613406978012" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1612372597803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612372597803" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1612372597803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612372597803" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1612372597803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612372597803" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1612372597803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612372597803" />
+    <state x="555" y="60" key="SettingsEditor" timestamp="1613407098580">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="60" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1613407098580" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612353566764">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612353566764" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1613407021112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1613407021112" />
   </component>
 </project>

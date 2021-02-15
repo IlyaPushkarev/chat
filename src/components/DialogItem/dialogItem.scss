@@ -1,0 +1,89 @@
+@import "../../styles/variables";
+
+.dialog-item {
+  $item: &;
+
+  display: flex;
+  width: 300px;
+  align-items: center;
+
+  &__avatar {
+    margin-right: 10px;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+  }
+
+  &-online {
+    #{$item}__avatar {
+      position: relative;
+      &::before {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        content: "";
+        background-color: $avatar-online-green;
+        border-radius: 30px;
+        width: 14px;
+        height: 14px;
+        border: 3px solid #fff;
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+
+    &-header {
+      display: flex;
+      margin-bottom: 5px;
+
+      b {
+        flex: 1;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      span {
+        opacity: .4;
+      }
+    }
+
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        opacity: .4;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 200px;
+        //height: 1.2em;
+        white-space: nowrap;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__unread-count {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #F46B6B;
+    color: #FFFFFF;
+    font-weight: 500;
+    width: 18px;
+    height: 18px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 11px
+  }
+}
